@@ -6,25 +6,25 @@ body,div,ul,li,p{
 .header{
     background-color: darkgreen;
     width: 900px;
-    height: 100px;
+    height: 110px;
     margin: 0 auto;
 }
 img{
     border: none;
+    float: left;
 }
 .welcome{
     font-size: 20px;
     color:palegreen;
-
-}
-.list-nav{
-    margin-top: 40px;
+    float: left;
+    margin-top: 30px;
 }
 .nav{
     list-style: none;
     float: right;
-    padding:10px;
+    padding:5px;
     color: gold;
+    margin-top: 75px;
 }
 .nav-a{
     text-decoration: none;
