@@ -1,0 +1,111 @@
+body,div,ul,li,p{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", "Arial", serif;
+}
+.header{
+    background-color: darkgreen;
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
+}
+img{
+    border: none;
+}
+.welcome{
+    font-size: 20px;
+    color:palegreen;
+}
+.list-nav{
+    margin-top: 40px;
+}
+.nav{
+    list-style: none;
+    float: right;
+    padding:10px;
+    color: gold;
+}
+.nav-a{
+    text-decoration: none;
+    color: gold;
+}
+.nav-a:hover{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+.box{
+    width: 900px;
+    margin: 0 auto;
+}
+.course-box{
+    width:240px;
+    background-color: darkseagreen;
+    height: 150px;
+    padding:10px 10px;
+    float: left;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.course{
+    margin-bottom: 5px;
+    color: white;
+}
+.course-nav-box{
+    width: 220px;
+    height: 130px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+}
+.course-nav{
+    font-size: 14px;
+    color: darkseagreen;
+    list-style: none;
+    display: inline;
+}
+.course-a {
+    text-decoration: none;
+    color: darkseagreen;
+}
+.course-a:hover{
+    color: darkcyan;
+}
+.activity-box{
+    width:240px;
+    height: 150px;
+    padding:10px 10px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+.activity{
+    color: darkseagreen;
+ }
+.activity-img{
+    border: solid 2px darkseagreen;
+    margin-top: 10px;
+}
+.news-box{
+    width:240px;
+    height: 150px;
+    padding:10px 10px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+.news{
+    color: darkseagreen;
+}
+.con{
+    border: solid 1px darkseagreen;
+    width: 240px;
+    height: 110px;
+    margin-top: 5px;
+    font-size: 14px;
+}
