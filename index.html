@@ -3,7 +3,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
     <title>双博教育</title>
-    <link rel="stylesheet" href="style.css" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="style.css" media="screen"/>
+
 </head>
 <body>
     <div class="header">
@@ -23,8 +24,14 @@
             </ul>
         </div>
     </div>
-    <div class="banner">
-        <img src="image/home_picture.png"/>
+    <div class="poster-main">
+        <div class="poster-btn poster-btn-left"></div>
+            <ul class="poster-list">
+                <li class="poster-item"><a href="#"><img src="image/home_picture1.png"/></a></li>
+                <li class="poster-item"><a href="#"><img src="image/home_picture2.jpg"/></a></li>
+                <li class="poster-item"><a href="#"><img src="image/home_picture3.jpg"/></a></li>
+            </ul>
+        <div class="poster-btn poster-btn-right"></div>
     </div>
     <div class="box">
         <div class="course-box">
@@ -51,7 +58,7 @@
         </div>
         <div class="news-box">
             <p class="news">双博新闻</p>
-            <div class="con">
+            <div id="con">
                 <ul id="con1">
                     <li>恭喜我们的学员XXX中考语文成绩全市第一</li>
                     <li>恭喜我们的学员XXX中考英语成绩全市第一</li>
@@ -63,4 +70,6 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>

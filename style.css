@@ -1,4 +1,4 @@
-body,div,ul,li,p{
+body,div,ul,li,p,a{
     margin: 0;
     padding: 0;
     font-family: "Helvetica", "Arial", serif;
@@ -34,14 +34,34 @@ img{
     text-decoration: none;
     color: white;
 }
-.banner{
+.poster-main{
+    position: relative;
     width: 900px;
     height: 500px;
     margin: 0 auto;
 }
+.poster-list{
+    width: 700px;
+    height: 500px;
+    clear: both;
+}
+.poster-btn{
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    top:0;
+    cursor: pointer;
+}
+.poster-btn-left{left: 0;background:url("image/btn_l.png") no-repeat center center;}
+.poster-btn-right{right: 0;background:url("image/btn_r.png") no-repeat center center;}
+.poster-item{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
 .box{
     width: 900px;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 .course-box{
     width:240px;
@@ -89,6 +109,8 @@ img{
     color: darkseagreen;
  }
 .activity-img{
+    width: 240px;
+    height: 100px;
     border: solid 2px darkseagreen;
     margin-top: 10px;
 }
@@ -103,10 +125,11 @@ img{
 .news{
     color: darkseagreen;
 }
-.con{
+#con{
     border: solid 1px darkseagreen;
     width: 240px;
     height: 110px;
     margin-top: 5px;
     font-size: 14px;
+    overflow: hidden;
 }
